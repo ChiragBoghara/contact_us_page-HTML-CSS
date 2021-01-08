@@ -1,0 +1,100 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: teal;
+  font-family: "Fredoka One", cursive;
+}
+
+.first {
+  background-color: whitesmoke;
+  width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+
+.first:hover {
+  box-shadow: 20px 20px 20px 2px rgb(24, 73, 69);
+}
+
+h1 {
+  color: rgb(13, 212, 212);
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(44, 51, 50);
+  font-size: 40px;
+}
+
+p {
+  color: teal;
+  margin: 10px;
+  margin-left: 30px;
+  font-weight: lighter;
+}
+
+input[type="text"],
+[type="number"],
+[type="email"],
+input[type="submit"] {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid rgb(190, 189, 189);
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 30px;
+  font-weight: lighter;
+  color: rgb(182, 179, 179);
+  font-family: "Fredoka One", cursive;
+}
+
+input[type="text"]:hover,
+[type="number"]:hover,
+[type="email"]:hover,
+textarea:hover {
+  border-color: rgb(63, 71, 71);
+  color: #000;
+}
+
+textarea {
+  width: 80%;
+  border: 2px solid rgb(190, 189, 189);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 30px;
+  color: rgb(182, 179, 179);
+  font-family: "Fredoka One", cursive;
+}
+
+.heading {
+  background-color: black;
+  padding: 15px 30px;
+}
+
+h5 {
+  margin: 10px;
+  margin-left: 30px;
+  font-weight: lighter;
+}
+
+input[type="submit"] {
+  background-color: rgb(44, 51, 50);
+  color: rgb(100, 255, 255);
+  font-size: large;
+  font-family: "Fredoka One", cursive;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(0, 17, 16);
+  font-size: x-large;
+}
+
+b {
+  font-size: xx-large;
+}
